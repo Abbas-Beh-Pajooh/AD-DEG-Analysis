@@ -29,7 +29,7 @@ Input data are **not** included in this repository. Place these files in the wor
 - `metadata_filtered.txt`: tab-delimited sample metadata with columns `group` (sample name, matching the count-matrix column names), `diagnosis` (`control` / `Alzheimer`), `sex` (`female` / `male`), `age_at_death`, `rin_score` and `post_mortem_interval`. The first column is read as row names, so `group` must be a separate column.
 - `gene_counts_brain.txt`: tab-delimited raw gene counts (genes in rows, samples in columns, Ensembl gene IDs as row names).
 
-## Data source: *PRJNA377568*
+Data source: PRJNA377568
 
 ## Usage
 
