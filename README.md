@@ -10,7 +10,7 @@ This repository contains an R script that compares Alzheimer's disease and contr
 
 - **Model:** `~ age_at_death + rin_score + post_mortem_interval + sex + diagnosis` (Wald test, parametric dispersion fit)
 - **Contrast:** Alzheimer vs. control (control is the reference level)
-- **Covariates:** age at death, RNA integrity number (RIN), post-mortem interval (PMI) and sex. The numeric covariates are mean-imputed where missing and then scaled.
+- **Covariates:** age at death, RNA integrity number (RIN), post-mortem interval (PMI) and sex.
 - **DEG thresholds:** adjusted p-value (FDR) < 0.05 and |log2 fold change| ≥ 1
 - **Heatmap:** variance-stabilizing transformation (VST), row Z-scores, top 50 DEGs by adjusted p-value
 
